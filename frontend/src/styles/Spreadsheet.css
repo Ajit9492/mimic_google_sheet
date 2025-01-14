@@ -1,0 +1,35 @@
+.spreadsheet {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ddd;
+  text-align: center;
+  outline: none;
+  padding: 5px;
+}
+
+.cell:focus {
+  border: 1px solid #007bff;
+  background-color: #e7f3ff;
+}
+
+.label-cell {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+}

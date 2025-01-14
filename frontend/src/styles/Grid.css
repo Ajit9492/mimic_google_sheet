@@ -1,0 +1,40 @@
+.grid-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .grid {
+    border-collapse: collapse;
+  }
+  
+  .grid th,
+  .grid td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .grid th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .row-number {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  
+  .grid input {
+    width: 100%;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .grid input:focus {
+    outline: none;
+    border: 1px solid #0073e6;
+  }
+  
